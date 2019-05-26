@@ -1,5 +1,7 @@
 # Dynamo db tests
 
+This project's intent is to measure the time taken by AWS dynamodb sdk to connect with the dynamodb instance.
+Corresponding [issue link](https://github.com/aws/aws-sdk-go/issues/2624)
 
 ## Setup
 
@@ -111,7 +113,3 @@ Starting local instance first
 2019/05/26 21:14:41 Request 2: Start
 2019/05/26 21:14:41 Request 2: Complete: Total no. of tables: 18
 ```
-
-## Issue link
-
-https://github.com/aws/aws-sdk-go/issues/2624
