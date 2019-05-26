@@ -11,8 +11,8 @@ docker run --rm -d -p 4569:8000 amazon/dynamodb-local -jar DynamoDBLocal.jar -in
 
 ## Result Summary
 
-Aws Instance   : 12 seconds
-Local Instance :  4 seconds 
+- Aws Instance   : ~11 seconds
+- Local Instance :  ~4 seconds
 
 ## Result
 
