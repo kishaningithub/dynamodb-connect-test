@@ -1,4 +1,4 @@
-# Dynamo db tests
+# Dynamo connect test
 
 This project's intent is to measure the time taken by AWS dynamodb sdk to connect with the dynamodb instance.
 Corresponding [issue link](https://github.com/aws/aws-sdk-go/issues/2624)
