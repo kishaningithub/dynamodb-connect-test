@@ -1,12 +1,12 @@
-# Dynamo connect test
+# Dynamodb connect test
 
 This project's intent is to measure the time taken by AWS dynamodb sdk to connect with the dynamodb instance.
 Corresponding [issue link](https://github.com/aws/aws-sdk-go/issues/2624)
 
 ## Setup
 
-1. I am connecting from india to aws dynamodb instance in ireland.
-2. For local - I am using dynamodb local with the below config.
+1. I am connecting from india to an aws dynamodb instance in ireland.
+2. For local, I am using dynamodb local with the below config.
 ```bash
 docker run --rm -d -p 4569:8000 amazon/dynamodb-local -jar DynamoDBLocal.jar -inMemory -sharedDb
 ```
